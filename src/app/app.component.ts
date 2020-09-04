@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mrpau-blog';
+  title = 'MrPau Softwares';
+  navmenu = ['Company','Team','Contact Us'];
 }

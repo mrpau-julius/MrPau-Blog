@@ -1,7 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="#logo">
   <img src="assets/mrpau_logo.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-  MrPau Softwares
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,24 +8,18 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">{{navmenu[0]}} <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Documentation </a>
+        <a class="nav-link" href="#">{{navmenu[1]}}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About team </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link </a>
+        <a class="nav-link" href="#">{{navmenu[2]}}</a>
       </li>
     </ul>
   <ul class="navbar-nav mr-auto ml-md-auto">
     <li class="nav-item active">
-      <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://web.facebook.com/mrpau.softwares/" target="_blank" rel="noopener" aria-label="Facebook" >
+      <a class="nav-link pl-2 pr-1 mx-1 py-3 my-n2" href="https://github.com/mrpau" target="_blank" rel="noopener" aria-label="GitHub" >
       <img src="assets/fb-logo.png" width="17" height="17" class="d-inline-block align-top" alt="" loading="lazy">
       <span class="sr-only">(current)</span>
       </a>
@@ -39,4 +32,24 @@
   </ul>
   </div>
 </nav>
+<div class="image-stack">
+  <div class="cover-cl position-relative p-4 p-md-5 m-md-2 text-center bottom-imgs">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="change-font-clr">{{title}}</h1>
+        <p class="overview-font-clr lead font-weight-normal">We are a team of Djangonauts based in Davao City, Philippines who has been active at UpWork for more than 5 years and have proven feedback ratings.</p>
+          <a class="btn btn-outline-primary" href="https://www.upwork.com/o/companies/~018f61e3ca17b3c28f/">
+          go to UpWork.com
+          </a>
+      </div>
+  </div>
+  <div class="top-imgs mrpau-bonding-img">
+    <img class="mrpau-bonding-img" src="assets/mrpau-team-bonding.png">
+  </div>
+</div>
+
+<div class="square grid-container">
+<div class="grid-item">sas</div>
+<div class="grid-item">sas</div>
+</div>
+
 <router-outlet></router-outlet>

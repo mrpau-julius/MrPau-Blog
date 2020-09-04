@@ -1,0 +1,73 @@
+.cover-cl:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(27, 105, 189);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .7;
+  z-index: 0;
+}
+
+.position-relative {
+  background-image: url('/assets/div-cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+.change-font-clr {
+  color: #ffffff;
+}
+.overview-font-clr {
+  color: #ffffff;
+  font-size: 140%;
+}
+
+.bottom-imgs
+    {
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+.top-imgs {
+  position: absolute;
+  top: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mrpau-bonding-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50;
+}
+
+.square {
+  position: relative;
+  top: 850px;
+  height: 200px;
+  width: 300px;
+  margin-left: 50px;
+  background-color: rgb(92, 175, 247);
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
